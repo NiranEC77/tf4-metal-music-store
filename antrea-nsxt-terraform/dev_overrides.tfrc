@@ -1,0 +1,9 @@
+provider_installation {
+  dev_overrides {
+    "vmware/nsxt" = "/home/niran/terraform-provider-nsxt"
+  }
+
+  # For all other providers, install them directly as normal.
+  direct {}
+}
+
